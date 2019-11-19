@@ -27,7 +27,7 @@
 
 m4最大支持的频率
 
-![1571729234](doc\map\1571729234.jpg)
+![1571729234](https://github.com/SoBigDog/SeerNXPm4/blob/master/doc/map/1571729234.jpg)
 
 和stm32不同的是这里PLL总线速度是792M的是M4内核的3倍。
 
