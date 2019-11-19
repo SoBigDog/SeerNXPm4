@@ -353,6 +353,8 @@
                     <state>$PROJ_DIR$\..\Protobuf</state>
                     <state>$PROJ_DIR$\..\FWlib\inc</state>
                     <state>$PROJ_DIR$\..\FWlib\scfw_api</state>
+                    <state>$PROJ_DIR$\..\FreeRTOS\include</state>
+                    <state>$PROJ_DIR$\..\FreeRTOS\portable\IAR</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -622,7 +624,7 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    <state></state>
+                    <state>$PROJ_DIR$\..\User</state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -656,7 +658,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>SeerNXPm4core0.bin</state>
+                    <state>m4_0.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2136,6 +2138,42 @@
     </group>
     <group>
         <name>Driver</name>
+    </group>
+    <group>
+        <name>FreeRTOS</name>
+        <group>
+            <name>portable</name>
+            <file>
+                <name>$PROJ_DIR$\..\FreeRTOS\portable\MemMang\heap_4.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\FreeRTOS\portable\IAR\port.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\FreeRTOS\portable\IAR\portasm.s</name>
+            </file>
+        </group>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\croutine.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\event_groups.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\list.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\queue.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\stream_buffer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\tasks.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FreeRTOS\timers.c</name>
+        </file>
     </group>
     <group>
         <name>FWlib</name>

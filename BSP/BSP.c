@@ -22,6 +22,10 @@ void BOARD_BootClockVLPR(void)
     SystemCoreClockUpdate();
 }
 
+/**
+ * @brief start clock
+ * 
+ */
 void BOARD_BootClockRUN(void)
 {
     SystemCoreClockUpdate();

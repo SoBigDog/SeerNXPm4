@@ -65,18 +65,8 @@ void BOARD_InitBootPins(void);
 void BOARD_InitPins(sc_ipc_t ipc);                         /*!< Function assigned for the core: Cortex-M4F[cm4_0] */
 
 
-
-
-
-
-
-
 #if defined(__cplusplus)
 }
 #endif /* __cplusplus*/
-
-
-
-
 
 
